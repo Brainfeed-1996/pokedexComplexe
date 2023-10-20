@@ -1,0 +1,18 @@
+<!-- Ce code est une application JavaScript qui utilise l'API Pokémon pour afficher des informations sur différents Pokémon. Voici une explication détaillée de chaque partie du code : -->
+
+<!-- 1. **Objets DOM** : Ces lignes de code sélectionnent différents éléments du Document Object Model (DOM) et les stockent dans des variables pour une utilisation ultérieure. Par exemple, `const mainScreen = document.querySelector('.main-screen');` sélectionne l'élément avec la classe 'main-screen' et le stocke dans la variable `mainScreen`. -->
+
+<!-- 2. **Constantes et variables** : `TYPES` est un tableau qui contient les différents types de Pokémon. `prevUrl` et `nextUrl` sont des variables qui seront utilisées pour naviguer entre les différentes pages de résultats de l'API. -->
+
+<!-- 3. **Fonctions** : Plusieurs fonctions sont définies pour effectuer différentes tâches : -->
+   <!-- - `capitalize` : Cette fonction prend une chaîne de caractères en entrée et renvoie la même chaîne avec la première lettre en majuscule. -->
+   <!-- - `resetScreen` : Cette fonction réinitialise l'écran principal en supprimant toutes les classes de type de l'écran principal. -->
+   <!-- - `fetchPokeList` : Cette fonction utilise l'API Fetch pour obtenir une liste de Pokémon à partir d'une URL spécifique. Elle met à jour les URL précédentes et suivantes pour la navigation entre les pages et met à jour le texte des éléments de la liste de Pokémon avec les noms des Pokémon obtenus. -->
+   <!-- - `fetchPokeData` : Cette fonction utilise également l'API Fetch pour obtenir des données détaillées sur un Pokémon spécifique à partir de son ID. Elle met à jour l'écran principal avec ces informations. -->
+   <!-- - `handleLeftButtonClick`, `handleRightButtonClick`, et `handleListItemClick` : Ces fonctions sont des gestionnaires d'événements qui sont déclenchés lorsque l'utilisateur clique sur les boutons gauche et droit ou sur un élément de la liste de Pokémon. -->
+
+<!-- 4. **Ajout d'écouteurs d'événements** : Des écouteurs d'événements sont ajoutés aux boutons et aux éléments de la liste de Pokémon pour déclencher les gestionnaires d'événements appropriés lorsque l'utilisateur interagit avec eux. -->
+
+<!-- 5. **Initialisation de l'application** : Enfin, l'application est initialisée en appelant la fonction `fetchPokeList` avec une URL qui obtient les 20 premiers Pokémon. -->
+
+<!-- J'espère que cela vous aide à comprendre ce code ! Si vous avez d'autres questions, n'hésitez pas à me demander. -->
