@@ -1,4 +1,1 @@
-# pokedexComplexe
-Un pokédex plus complexe réalisé avec un tutoriel Youtube
-
-Lien du pokédex : https://brainfeed-1996.github.io/pokedexComplexe/?fbclid=IwAR3T5W8Q9jJlsXkm8tPgbRm5RdSzKbHsyP5hrRcAfIie8W3RTNjucg0zodQ
+# Deprecated / Consolidated\n\nThis repository has been consolidated into:\n\n- **ultimate-pokedex-collection** → https://github.com/Brainfeed-1996/ultimate-pokedex-collection\n\nThis repo is kept for historical reference and is archived.\n
